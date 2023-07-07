@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+:root {
+    --azul-turquesa: #2A7AE4;
+    --azul-claro: #EAF2FD;
+    --cinza-escuro: #464646;
+    --cinza-claro: #A2A2A2;
+    --branco: #F5F5F5;
+    --hoover-azul-claro: #D4E4FA;
+    --hoover-azul-escuro: #5595E9;
+}
+
+header {
+    background-color: var(--cinza-escuro);
+    padding: 40px;
+}
+
+.header-menu-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+
+}
+
+.links-botoes {
+    color: var(--branco);
+}
+
+.links-botoes:hover{
+    font-size: 32px;
+}
+
+main {
+    background-color: var(--cinza-claro);
+    height: 500px;
+    display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+h1 {
+    font-family: 'Martian Mono', monospace;
+    font-size: 52px;
+    color: #F5F5F5;
+}
+
+h1:hover{
+font-size: 72px;
+}
+
+.titulo-tabela{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+.tabela-servicos{
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: var(--azul-claro);
+    height: 368px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.apresentacao-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 112px;
+    padding: 64px;
+}
+
+.footer-botoes {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 20px;
+    color: var(--cinza-escuro);
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+}
+
+.footer-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.footer-titulo-formulario {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--cinza-escuro);
+}
+
+.footer-input-nome {
+    padding-bottom: 56px;
+    width: 560px;
+    border: none;
+    border-bottom: var(--cinza-escuro);
+
+}
+
+.footer-input-mensagem {
+    display: flex;
+    width: 560px;
+    padding-bottom: 82px;
+    border: none;
+}
+
+.botao-adicionar-servicos, .footer-botao-formulario {
+    background-color: var(--azul-turquesa);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: var(--branco);
+    height: 51px;
+    width: 165px;
+    border: none;
+}
+
+.footer-apresentacao-desenvolvedores {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 102px;
+    padding: 32px;
+}
+
+.footer-apresentacao-desenvolvedores-conteudo {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: 464646;
+    justify-content: center;
+    align-self: center;
+
+}
